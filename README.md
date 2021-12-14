@@ -56,7 +56,13 @@ In the lower window pane of the development environment, use a bash terminal to 
 
 ```bash
 git clone https://github.com/salgado/vrx-awsrobomaker.git
+cd vrx-awsrobomaker/scripts
 ```
 
 ### 2.1 - Install dependencies and run docker
 
+Inside vrx-awsrobomaker directory run:
+
+```bash
+bash vrx-create-env.sh
+```
