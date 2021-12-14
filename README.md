@@ -91,5 +91,28 @@ building > Successfully built 031e62208c11
 bash vrx-aws-rundockek.sh 031e62208c11
 ```
 
-Now you have a ROS inside docker container.
-Just type ```rosversion -d```and check "noetic" response  
+Now you have a ROS running inside docker container.
+Just type ```rosversion -d```and check "noetic" response.
+  
+  
+## Part 3 - Create a VRX Workspace and run a basic application
+  
+### 3.1 - Type(or copy/paste) the commands to create your vrx workspace  
+
+```bash
+#inside the docker
+mkdir -p ~/vrx_ws/src
+cd ~/vrx_ws/src
+
+git clone https://github.com/osrf/vrx
+
+# Build and Run the VRX Simulation Platform
+
+source /opt/ros/noetic/setup.bash
+cd ~/vrx_ws
+catkin_make
+
+# run
+source ~/vrx_ws/devel/setup.bash
+```  
+```bash
