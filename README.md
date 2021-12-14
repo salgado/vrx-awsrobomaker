@@ -16,5 +16,13 @@ This tutorial has three parts explained in detail
 *   Part 2 - Configure VRX
 *   Part 3 - Test and run the VRX basic application
 
+## Part 1 - Create a ROS development environment
+
+To create your VRX robot application, you need an environment configured for ROS development, build tools like Colcon and some helper tools like Gazebo simulator, rviz, etc.
+
+### 1.1 - Create a development environment
+
+To get started with this tutorial, we’re going to create an AWS RoboMaker integrated development environment (IDE). From the **AWS RoboMaker** menu, select **Development Environments** then **Create development.** 
+
 
 
