@@ -68,9 +68,27 @@ You must see the files below
 
 ### 2.1 - Install dependencies and run docker
 
-Inside vrx-awsrobomaker directory run:
+Inside vrx-awsrobomaker directory run...
 
 ```bash
 bash vrx-create-env.sh
 ```
 
+...and proceed with the installation. ** if you asked about "Do you want to continue? [Y/n] ", just hit <enter> to accept **
+
+It could take about 7 minutes to finish the installation until this message stop the process.  
+
+![](screens/aws-robomaker-tut-06.png)  
+
+Copy your docker id in this message...  
+
+```bash
+building > Successfully built 031e62208c11
+```
+...and use to type the following command  
+
+  ```bash
+bash vrx-aws-rundockek.sh 031e62208c11
+```
+
+  
