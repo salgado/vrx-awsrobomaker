@@ -1,0 +1,1 @@
+docker run --rm -it -v /home/ubuntu/.gitconfig:/home/None/.gitconfig:ro -v /home/ubuntu:/home/ubuntu  --name noetic_runtime  -e DISPLAY -e TERM   -e QT_X11_NO_MITSHM=1   -e XAUTHORITY=/tmp/.dockerfy1f_eyx.xauth -v /tmp/.dockerfy1f_eyx.xauth:/tmp/.dockerfy1f_eyx.xauth   -v /tmp/.X11-unix:/tmp/.X11-unix   -v /etc/localtime:/etc/localtime:ro  $1
