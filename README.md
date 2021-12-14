@@ -54,7 +54,9 @@ To create the vrx-ROS-ready environment, you could use the link, https://github.
 
 In the lower window pane of the development environment, use a bash terminal to download this repository. 
 
-`git clone https://github.com/salgado/vrx-awsrobomaker.git`
+```bash
+git clone https://github.com/salgado/vrx-awsrobomaker.git
+```
 
 ### 2.1 - Install dependencies and run docker
 
