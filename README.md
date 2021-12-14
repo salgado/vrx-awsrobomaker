@@ -24,4 +24,4 @@ To create your VRX robot application, you need an environment configured for ROS
 
 To get started with this tutorial, we’re going to create an AWS RoboMaker integrated development environment (IDE). From the **AWS RoboMaker** menu, select **Development Environments** then **Create development.** 
 
-![](images/aws-robomaker-tut-01.png)
+![](screens/aws-robomaker-tut-01.png)
