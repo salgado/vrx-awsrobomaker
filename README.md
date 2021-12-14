@@ -46,3 +46,15 @@ After a few seconds, you should see the development environment appear.
 ![](screens/aws-robomaker-tut-04.png)
 
 
+## Part 2 - configure VRX
+
+To create the vrx-ROS-ready environment, you could use the link, https://github.com/osrf/vrx/wiki/system_setup_tutorials. But we customize the main commands in some scripts to a fast installation process. Follow the instructions below.
+
+### 2.1 - Download the scripts
+
+In the lower window pane of the development environment, use a bash terminal to download this repository. 
+
+`git clone https://github.com/salgado/vrx-awsrobomaker.git`
+
+### 2.1 - Install dependencies and run docker
+
