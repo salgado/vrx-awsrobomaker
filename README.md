@@ -1,5 +1,7 @@
 # vrx-awsrobomaker
 
+# VRX on AWS RoboMaker 
+
 ## Introduction
 
 These steps will guide you through creating a VRX ROS environment in the Cloud using AWS RoboMaker.
