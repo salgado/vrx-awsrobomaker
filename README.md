@@ -25,3 +25,24 @@ To create your VRX robot application, you need an environment configured for ROS
 To get started with this tutorial, we’re going to create an AWS RoboMaker integrated development environment (IDE). From the **AWS RoboMaker** menu, select **Development Environments** then **Create development.** 
 
 ![](screens/aws-robomaker-tut-01.png)
+
+Currently, AWS RoboMaker offers native support for Melodic(ROS1) or Foxy(ROS2) distro. But for our VRX environment, we will follow docker vrx installation process to accomplish the ROS Noetic competition config requirements.
+
+Name your environment **vrx-env**, choose **Foxy (Latest)** as your ROS distribution and **m4.xlarge** as the instance type...
+
+
+![](screens/aws-robomaker-tut-02.png)
+
+
+... then click Create.
+
+
+![](screens/aws-robomaker-tut-03.png)
+
+
+After a few seconds, you should see the development environment appear.
+
+
+![](screens/aws-robomaker-tut-04.png)
+
+
