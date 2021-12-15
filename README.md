@@ -77,7 +77,7 @@ Inside vrx-awsrobomaker directory run...
 bash vrx-create-env.sh
 ```
 
-...and proceed with the installation. ** if you asked about "Do you want to continue? [Y/n] ", just hit <<enter>> to accept **
+...and proceed with the installation. ** if you asked about "Do you want to continue? [Y/n] ", just hit `<ENTER>` to accept **
 
 It could take about 7 minutes to finish the installation until this message stop the process.  
 
