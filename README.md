@@ -114,5 +114,30 @@ catkin_make
 
 # run
 source ~/vrx_ws/devel/setup.bash
+  
+echo "Congrats!! You have finished vrx installation!"
 ```  
+You should receive the response Congrats!!.
+
+
+### 3.2 - Run a basic application  
+
+To run simulations and ros command, we will use "virtual desktop" from AWS Robomaker. 
+For the final part of this tutorial, open a atb clicking on menu "Virtual Desktop" then "Launch Virtual Desktop".  
+
+Join docker noetic
+  
+```bash  
+# join docker noetic
+cd ~/environment/vrx-install/scripts
+bash vrx-aws-join.sh 
+```
+
+Launch vrx-ros-project and gazebo
 ```bash
+# launch vrx-ros-project and gazebo
+cd ~/environment/vrx-install/scripts
+bash vrx-aws-launch-gazebo.sh
+```
+
+
