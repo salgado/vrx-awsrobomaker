@@ -6,6 +6,9 @@
 
 These steps will guide you through creating a VRX ROS environment in the Cloud using AWS RoboMaker.
 
+![](screens/aws-robomaker-tut-09.png)  
+
+
 ## Step 1: Create a AWS Account
 
 In order to use AWS RoboMaker, do you need an account, see the link below to create: [How do I create and activate a new AWS account?](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/) 
@@ -92,12 +95,12 @@ bash vrx-aws-rundockek.sh 031e62208c11
 ```
 
 Now you have a ROS running inside docker container.
-Just type ```rosversion -d```and check "noetic" response.
+Just type ```rosversion -d``` and check "noetic" response.
   
   
 ## Part 3 - Create a VRX Workspace and run a basic application
   
-### 3.1 - Type(or copy/paste) the commands to create your vrx workspace  
+### 3.1 - Type (or copy/paste) the commands to create your vrx workspace  
 
 ```bash
 #inside the docker
@@ -123,7 +126,18 @@ You should receive the response Congrats!!.
 ### 3.2 - Run a basic application  
 
 To run simulations and ros command, we will use "virtual desktop" from AWS Robomaker. 
-For the final part of this tutorial, open a atb clicking on menu "Virtual Desktop" then "Launch Virtual Desktop".  
+For the final part of this tutorial, open a tab clicking on menu "Virtual Desktop" then "Launch Virtual Desktop".  
+
+
+![](screens/aws-robomaker-tut-07.png)  
+
+Obs: ** If you open a blank tab, please close that an repeat the 3.2 step again **
+
+Inside the Virtual Box, click on "Activities" | type "terminal", select Xterm terminal window...
+
+![](screens/aws-robomaker-tut-08.png)  
+
+.. and type the following commands
 
 Join docker noetic
   
@@ -139,5 +153,11 @@ Launch vrx-ros-project and gazebo
 cd ~/environment/vrx-install/scripts
 bash vrx-aws-launch-gazebo.sh
 ```
+
+### 3.3 - From ZERO to VRX
+
+Congrats!! Now you have VRX ROS Up and running on AWS RoboMaker.
+
+![](screens/aws-robomaker-tut-09.png)  
 
 
