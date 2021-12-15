@@ -86,12 +86,12 @@ It could take about 7 minutes to finish the installation until this message stop
 Copy your docker id in this message...  
 
 ```bash
-building > Successfully built 031e62208c11
+building > Successfully built (your_docker_id)
 ```
 ...and use to type the following command  (your generated 'docker id' will appear different than the example)
 
   ```bash
-bash vrx-aws-rundockek.sh 031e62208c11
+bash vrx-aws-rundockek.sh your_docker_id
 ```
 
 Now you have a ROS running inside docker container.
