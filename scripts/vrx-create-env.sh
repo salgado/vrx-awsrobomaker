@@ -23,4 +23,5 @@ sudo apt-get install python3-rocker
 git clone https://github.com/Field-Robotics-Lab/dockwater.git
 cd dockwater
 ./build.bash noetic
-./run.bash noetic:latest
+#./run.bash noetic:latest
+rocker  --devices /dev/input/js0 --dev-helpers  --x11 --user --home --git --name noetic_runtime noetic:latest 
