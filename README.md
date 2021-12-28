@@ -84,20 +84,8 @@ bash vrx-create-env.sh
 
 ...and proceed with the installation. ** if you asked about "Do you want to continue? [Y/n] ", just hit `<ENTER>` to accept **
 
-It could take about 7 minutes to finish the installation until this message stop the process.  
+It could take about 8 minutes to finish the installation until this message stop the process.  
 
-![](screens/aws-robomaker-tut-06.png)  
-
-Copy your docker id in this message...  
-
-```bash
-building > Successfully built (your_docker_id)
-```
-...and use to type the following command  (your generated 'docker id' will appear different than the example)
-
-  ```bash
-bash vrx-aws-rundockek.sh your_docker_id
-```
 
 Now you have a ROS running inside docker container.
 Just type ```rosversion -d``` and check "noetic" response.
