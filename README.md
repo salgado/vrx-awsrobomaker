@@ -33,7 +33,7 @@ To get started with this tutorial, we’re going to create an AWS RoboMaker inte
 
 Currently, AWS RoboMaker offers native support for Melodic(ROS1) or Foxy(ROS2) distro. But for our VRX environment, we will follow docker vrx installation process to accomplish the ROS Noetic competition config requirements.
 
-We ahve tested this using US East(N. Virginia) region, please, send a issue if you run in another region successfully.
+We have tested this using the US East(N. Virginia) region; please send us an issue if you successfully run in another region.
 
 ![](screens/aws-robomaker-tut-015.png)
 
